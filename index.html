@@ -1,22 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <!-- Required meta tags always come first -->
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-    
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
- 
-        <!-- Additional CSS must be placed after Bootstrap CSS -->
-        <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
-        <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
-        <link rel="stylesheet" href="css/styles.css" />
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-        <title>NuCamp: A Better Way To Camp</title>
-    </head>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+
+    <!-- Additional CSS must be placed after Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <title>NuCamp: A Better Way To Camp</title>
+</head>
 
 <body>
 
@@ -95,7 +95,7 @@
                 <div class="media">
                     <img class="d-flex mr-3 img-thumbnail" src="img/bootstrap-thumb.png" alt="Bootstrap Outfitters" />
                     <div class="media-body align-self-center">
-                    <h3>Bootstrap Outfitters</h3>
+                        <h3>Bootstrap Outfitters</h3>
                         <p class="d-none d-sm-block">Bootstrap Outfitters supplies you with gear you need at prices you can't beat.</p>
                     </div>
                 </div>
@@ -104,17 +104,15 @@
 
         <div class="row row-content">
             <div class="col col-sm-6 mx-auto">
-                <div class="card">
-                    <div class="card-header bg-info text-white">
-                        <h3>Reserve a Campsite</h3>
-                    </div>
+                <div class="card">                   
+                    <h3 class="card-header bg-info text-white">Reserve a Campsite</h3>
                     <div class="card-body">
                         <form id="reserveForm">
                             <div class="row form-group">
                                 <div class="col col-sm-6">
                                     <label class="col-form-label" for="numCampers">Number of Campers</label>
                                 </div>
-                                <div class="col">
+                                <div class="col col-sm-6">
                                     <select class="form-control" name="numCampers" id="numCampers">
                                         <option>Select...</option>
                                         <option>1</option>
@@ -144,43 +142,6 @@
                 </div>
             </div>
         </div>
-
-
-
-
-    <div class="row row-content">
-        <div class="col-sm-6 mx-auto">
-            <div class="card">
-                <h3 class="card-header bg-info text-white">Reserve a Campsite</h3>
-                <div class="card-body">
-                    <form>
-                        <div class="row">
-                            <label class="col-form-label">Number of Campers</label>
-                            <div>
-                                <select name="numCampers" id="numCampers">
-                                    <option>Select...</option>
-                                    <option>1</option>
-                                    <option>2</option>
-                                    <option>3</option>
-                                    <option>4</option>
-                                    <option>5</option>
-                                    <option>6</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="row">
-
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-
-
-
     </div>
 
     <footer class="site-footer">
